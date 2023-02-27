@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #ce1b1b;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: #0a3097;
+    color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation styles */
+  
+  nav {
+    background-color: #55bded;
+    color: #0a0505;
+    padding: 10px;
+  }
+  
+  .menu li {
+    display: inline-block;
+    color:#ce1b1b;
+    margin-right: 20px;
+  }
+  
+  .menu li:hover {
+    background-color: #555;
+  }
+  
+  .menu a {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #333;
+  }
+  
+  .services:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown li {
+    display: block;
+  }
+  
+  .dropdown li a {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Main content styles */
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: #080707;
+  }
+  .btn1 {
+    background-color: #55df91;
+    border: none;
+    border-radius: 5px;
+    color: #010605;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .btn1:hover:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
